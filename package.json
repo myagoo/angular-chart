@@ -30,5 +30,8 @@
     "karma-jasmine": "~0.2",
     "karma-chrome-launcher": "~0.1",
     "karma-firefox-launcher": "~0.1"
+  },
+  "dependencies": {
+    "c3": "^0.3.0"
   }
 }
