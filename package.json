@@ -1,37 +1,38 @@
 {
-  "name": "angular-chart",
-  "version": "0.2.3",
-  "description": "C3-based reusable chart directive",
-  "main": "angular-chart.js",
-  "scripts": {
-    "test": "grunt"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/maxklenk/angular-chart.git"
-  },
-  "keywords": [
-    "d3",
-    "c3",
-    "chart",
-    "graph"
-  ],
-  "author": "Max Klenk",
-  "license": "MIT",
-  "readmeFilename": "README.md",
-  "devDependencies": {
-    "load-grunt-tasks": "~0.6",
-    "grunt": "~0.4",
-    "grunt-contrib-jshint": "~0.10",
-    "grunt-karma": "~0.9",
-    "grunt-karma-coveralls": "~2.5",
-    "karma": "~0.12",
-    "karma-coverage": "~0.2",
-    "karma-jasmine": "~0.2",
-    "karma-chrome-launcher": "~0.1",
-    "karma-firefox-launcher": "~0.1"
-  },
-  "dependencies": {
-    "c3": "^0.3.0"
-  }
+    "name": "angular-chart",
+    "version": "0.2.4",
+    "description": "C3-based reusable chart directive",
+    "main": "angular-chart.js",
+    "scripts": {
+        "test": "grunt"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/maxklenk/angular-chart.git"
+    },
+    "keywords": [
+        "d3",
+        "c3",
+        "chart",
+        "graph"
+    ],
+    "author": "Max Klenk",
+    "license": "MIT",
+    "readmeFilename": "README.md",
+    "devDependencies": {
+        "load-grunt-tasks": "~0.6",
+        "grunt": "~0.4",
+        "grunt-contrib-jshint": "~0.10",
+        "grunt-karma": "~0.9",
+        "grunt-karma-coveralls": "~2.5",
+        "karma": "~0.12",
+        "karma-coverage": "~0.2",
+        "karma-jasmine": "~0.2",
+        "karma-chrome-launcher": "~0.1",
+        "karma-firefox-launcher": "~0.1"
+    },
+    "dependencies": {
+        "c3": "^0.3.0",
+        "d3": "^3.4.13"
+    }
 }
